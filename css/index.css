@@ -1,5 +1,25 @@
 header {
     font-family: 'Eczar', serif;
-    color: #F2B5D4;
     text-align: center;
+}
+
+#orchid-pink {
+    color: #F2B5D4;
+}
+
+#baby-blue-eyes {
+    color: #A1CDF1;
+}
+
+#tea-green {
+    color: #BEE8C3;
+}
+
+#blond {
+    color: #FFF0BC;
+}
+
+#services {
+    font-family: 'Raleway', sans-serif;
+    color: #7A7A7A;
 }
