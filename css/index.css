@@ -3,6 +3,12 @@ header {
     text-align: center;
 }
 
+.title-row {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
 #orchid-pink {
     color: #F2B5D4;
 }
@@ -19,7 +25,10 @@ header {
     color: #FFF0BC;
 }
 
-#services {
-    font-family: 'Raleway', sans-serif;
+#description {
     color: #7A7A7A;
+    font-family: 'Raleway', sans-serif;
+    max-width: 50%;
+    text-align: center;
+    margin:auto;
 }
