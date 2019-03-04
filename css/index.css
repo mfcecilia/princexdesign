@@ -32,3 +32,11 @@ header {
     text-align: center;
     margin:auto;
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    font-family: 'Eczar', serif;
+    padding: 3%;
+    color: #999999;
+}
