@@ -9,6 +9,22 @@ header {
     justify-content: center;
 }
 
+.title-row img {
+    width: 25%;
+    height: 25%;
+    margin: auto;
+    padding-bottom: 5%;
+}
+
+.menu {
+    text-align: center;
+    font-family: 'Eczar', serif;
+}
+.menu a {
+    text-decoration: none;
+    color: #F2B5D4;
+}
+
 #orchid-pink {
     color: #F2B5D4;
 }
@@ -31,6 +47,7 @@ header {
     max-width: 50%;
     text-align: center;
     margin:auto;
+    padding-bottom: 5%;
 }
 
 footer {
