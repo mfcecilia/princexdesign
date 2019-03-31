@@ -1,18 +1,36 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+}
+
+nav {
+    background-color: white;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    justify-content: center;
+}
+
 header {
     font-family: 'Eczar', serif;
     text-align: center;
+    padding: 3%;
 }
 
 .title-row {
     display: flex;
     align-content: center;
     justify-content: center;
+    padding: 5%;
 }
 
 .title-row img {
-    padding: 5%;
-    width: 25%;
-    height: 40%;
+    padding: 10%;
+    width: 30%;
+    height: 10%;
 }
 
 .menu {
@@ -23,21 +41,23 @@ header {
     font-family: 'Eczar', serif;
     flex-wrap: wrap;
     font-size: 2em;
+    width: 100%;
 }
 
 .menu a {
     text-decoration: none;
 }
 
-#projects {
+.projects {
  color: #F2B5D4;   
 }
 
-#contact {
+
+.contact {
     color: #A1CDF1;
 }
 
-#about {
+.about {
     color: #BEE8C3;
 }
 
@@ -57,24 +77,76 @@ header {
     color: #FFF0BC;
 }
 
-#description {
+.menu-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#projects {
+    padding: 30%;
+    margin: 0;
+    max-width: 100%;
+    background-color: #F2B5D4;
+    color: white;
+    text-align: center;
+}
+
+#projects a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+}
+
+/* unvisited link */
+#projects a:link {
+  color: white;
+}
+
+/* visited link */
+#projects a:visited {
+  color: white;
+}
+
+/* mouse over link */
+#projects a:hover {
+  color: white;
+}
+
+/* selected link */
+#projects a:active {
+  color: white;
+}
+
+#about {
+    background-color: #BEE8C3;
     color: #7A7A7A;
     font-family: 'Raleway', sans-serif;
-    max-width: 50%;
     text-align: center;
     margin:auto;
-    padding-bottom: 5%;
+    padding: 25%;
+    font-size: 1.5em;
+}
+
+#contact {
+    padding: 30%;
+    margin: 0;
+    max-width: 100%;
+    background-color: #A1CDF1;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+
+#contact a {
+    text-decoration: none;
+    color: #7A7A7A;
 }
 
 footer {
     display: flex;
     justify-content: center;
     font-family: 'Eczar', serif;
-    padding: 3%;
     color: #999999;
-}
-
-#email a {
-    text-decoration: none;
-    color: #262626;
 }
