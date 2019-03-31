@@ -11,22 +11,22 @@ header {
 
 .title-row img {
     padding: 5%;
-    width: 40%;
+    width: 65%;
     height: 40%;
 }
 
 .menu {
     display: flex;
     justify-content: center;
+    justify-content: space-around;
     text-align: center;
     font-family: 'Eczar', serif;
     flex-wrap: wrap;
-    font-size: 1.5em;
+    font-size: 2em;
 }
+
 .menu a {
     text-decoration: none;
-    padding: 3%;
-    margin: 3%;
 }
 
 #projects {
