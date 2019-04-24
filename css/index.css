@@ -52,6 +52,15 @@ header {
  color: #F2B5D4;   
 }
 
+.gallery {
+    display: flex;
+    justify-content: space-around;
+}
+
+.gallery div {
+    margin: auto;
+    padding: 3%;
+}
 
 .contact {
     color: #A1CDF1;
