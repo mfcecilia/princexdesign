@@ -83,7 +83,6 @@ header {
 }
 
 #projects {
-    padding: 20%;
     margin: 0;
     max-width: 100%;
     background-color: #F2B5D4;
@@ -119,12 +118,14 @@ header {
 
 .gallery {
     display: flex;
-    justify-content: space-around;
+    overflow-x: auto;
+    min-width: 100%;
+    min-height: 100px;
 }
 
 .gallery div {
     margin: auto;
-    padding: 3%;
+    padding: 5%;
 }
 
 .gallery i {
