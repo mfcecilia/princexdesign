@@ -120,7 +120,8 @@ header {
     display: flex;
     overflow-x: auto;
     min-width: 100%;
-    min-height: 100px;
+    overflow-y: scroll;
+    white-space: nowrap;
 }
 
 .gallery div {
