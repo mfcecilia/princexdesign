@@ -52,7 +52,6 @@ header {
  color: #F2B5D4;   
 }
 
-
 .contact {
     color: #A1CDF1;
 }
@@ -84,12 +83,10 @@ header {
 }
 
 #projects {
-    padding: 20%;
     margin: 0;
     max-width: 100%;
     background-color: #F2B5D4;
     color: white;
-    text-align: center;
 }
 
 #projects a {
@@ -116,6 +113,18 @@ header {
 /* selected link */
 #projects a:active {
   color: white;
+}
+
+.gallery {
+    display: grid;
+}
+
+.gallery div {
+    padding: 5%;
+}
+
+.gallery i {
+    color: white;
 }
 
 #about {
