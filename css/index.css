@@ -48,6 +48,15 @@ header {
     text-decoration: none;
 }
 
+.home {
+    max-width: 5%;
+}
+
+.home img {
+    max-width: 95%;
+    margin-top: 25%;
+}
+
 .projects {
  color: #F2B5D4;   
 }
