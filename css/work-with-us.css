@@ -1,0 +1,20 @@
+body {
+    text-align: center;
+    font-family: 'Eczar', serif;
+    margin: 0;
+}
+img {
+    max-width: 50%;
+}
+
+hr {
+    max-width: 30%;
+}
+
+h1 {
+    color: #F2B5D4;
+}
+
+h3 {
+    color: #F2B5D4;
+}
