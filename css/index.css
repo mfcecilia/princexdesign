@@ -69,6 +69,11 @@ header {
     color: #BEE8C3;
 }
 
+.collaborate {
+    color: grey;
+    text-decoration: none;
+}
+
 #orchid-pink {
     color: #F2B5D4;
 }
