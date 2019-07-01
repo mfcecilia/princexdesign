@@ -146,6 +146,14 @@ header {
     font-size: 1.5em;
 }
 
+.testimonials img {
+    max-width: 30%;
+}
+
+.testimonials p {
+    font-size: .75em;
+}
+
 #contact {
     padding: 30%;
     margin: 0;
