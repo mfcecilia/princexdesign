@@ -17,7 +17,6 @@ nav {
 header {
     font-family: 'Eczar', serif;
     text-align: center;
-    padding: 3%;
 }
 
 .title-row {
@@ -130,7 +129,9 @@ header {
 }
 
 .gallery {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .gallery div {
