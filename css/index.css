@@ -102,20 +102,38 @@ header {
     color: white;
 }
 
+#projects h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3em;
+    color: white;
+}
+
+#projects hr {
+    max-width: 30%;
+    border: .5px solid black;
+}
+
+
+#projects p {
+    font-style: oblique;
+    max-width: 30%;
+    margin: auto;
+}
+
 #projects a {
     text-decoration: none;
-    color: white;
-    font-size: 1.5em;
+    color: grey;
+    font-size: 1.3em;
 }
 
 /* unvisited link */
 #projects a:link {
-  color: white;
+  color: grey;
 }
 
 /* visited link */
 #projects a:visited {
-  color: white;
+  color: grey;
 }
 
 /* mouse over link */
