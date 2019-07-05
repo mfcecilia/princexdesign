@@ -166,8 +166,17 @@ header {
     font-family: 'Raleway', sans-serif;
     text-align: center;
     margin:auto;
-    padding: 25%;
+    padding: 3%;
     font-size: 1.5em;
+}
+
+#about h1 {
+    font-family: 'Dancing Script', cursive;
+    color: white;
+}
+
+#about hr {
+    max-width: 30%;
 }
 
 .testimonials img {
