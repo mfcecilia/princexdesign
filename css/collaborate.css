@@ -18,3 +18,8 @@ h1 {
 h3 {
     color: #F2B5D4;
 }
+
+p {
+    max-width: 50%;
+    margin: auto;
+} 
