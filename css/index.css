@@ -68,9 +68,13 @@ header {
     color: #BEE8C3;
 }
 
-.collaborate {
-    color: grey;
+.careers {
+    color: peachpuff;
     text-decoration: none;
+}
+
+.workshops {
+    color: mediumpurple;
 }
 
 #orchid-pink {
