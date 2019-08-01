@@ -3,6 +3,7 @@ html {
 }
 body {
     margin: 0;
+    max-width: 100%;
 }
 
 nav {
@@ -203,13 +204,16 @@ header {
     background-color: #A1CDF1;
     color: white;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 130%;
 }
 
 
 #contact a {
     text-decoration: none;
     color: #7A7A7A;
+}
+
+#contact p {
 }
 
 footer {
