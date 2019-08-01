@@ -39,8 +39,9 @@ header {
     text-align: center;
     font-family: 'Eczar', serif;
     flex-wrap: wrap;
-    font-size: 1.3em;
+    font-size: 130%;
     width: 100%;
+    max-width: 100%;
 }
 
 .menu a {
@@ -71,6 +72,10 @@ header {
 .careers {
     color: peachpuff;
     text-decoration: none;
+}
+
+.hire {
+    color: goldenrod;
 }
 
 .workshops {
