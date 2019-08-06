@@ -201,12 +201,20 @@ header {
     max-width: 30%;
 }
 
-.testimonials img {
-    max-width: 30%;
+.testimonials {
+    display: flex;
 }
 
-.testimonials p {
-    font-size: .75em;
+.testimony img {
+    max-width: 30%;
+    display: block;
+    margin: auto;
+}
+
+.testimony p {
+    font-size: .60em;
+    max-width: 70%;
+    margin: auto;
 }
 
 #contact {
