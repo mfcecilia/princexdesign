@@ -185,7 +185,6 @@ header {
 #about {
     background-color: #BEE8C3;
     color: #7A7A7A;
-    font-family: 'Raleway', sans-serif;
     text-align: center;
     margin:auto;
     padding: 3%;
@@ -199,6 +198,13 @@ header {
 
 #about hr {
     max-width: 30%;
+}
+
+#description {
+    font-style: oblique;
+    max-width: 30%;
+    margin: auto;
+    font-size: .75em;
 }
 
 .testimonials {
