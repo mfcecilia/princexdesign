@@ -209,6 +209,7 @@ header {
 
 .testimonials {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .testimony img {
