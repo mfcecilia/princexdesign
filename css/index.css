@@ -16,6 +16,17 @@ nav {
     flex-wrap: wrap;
 }
 
+.sub-nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sub-nav a {
+    text-decoration: none;
+    font-family: 'Eczar', serif;
+    font-size: 130%;
+}
+
 header {
     font-family: 'Eczar', serif;
     text-align: center;
@@ -31,7 +42,7 @@ header {
 
 .title-row img {
     padding: 10%;
-    padding-top: 20%;
+    margin: 5%;
     width: 30%;
 }
 
