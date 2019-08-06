@@ -43,7 +43,7 @@ header {
 .title-row img {
     padding: 10%;
     margin: 5%;
-    width: 30%;
+    max-width: 25%;
 }
 
 .menu {
@@ -213,7 +213,7 @@ header {
 }
 
 .testimony {
-    max-width: 50%;
+    max-width: 50%
 }
 
 .testimony img {
