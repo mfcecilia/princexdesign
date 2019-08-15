@@ -29,9 +29,8 @@ nav {
 
 header {
     font-family: 'Eczar', serif;
-    text-align: center;
     max-width: 100%;
-    display: flex;
+    display: block;
 }
 
 .title-row {
@@ -41,10 +40,10 @@ header {
     padding: 5%;
 }
 
-.title-row img {
+header img {
     display: block;
-    padding: 5%;
-    margin: 5%;
+    padding-top: 15%;
+    margin: auto;
     max-width: 30%;
 }
 
