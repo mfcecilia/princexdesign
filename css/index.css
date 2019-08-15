@@ -31,6 +31,7 @@ header {
     font-family: 'Eczar', serif;
     text-align: center;
     max-width: 100%;
+    display: flex;
 }
 
 .title-row {
