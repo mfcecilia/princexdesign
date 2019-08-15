@@ -44,6 +44,7 @@ header {
     padding: 10%;
     margin: 5%;
     max-width: 25%;
+    max-height: 25%;
 }
 
 .menu {
@@ -235,16 +236,18 @@ header {
     background-color: #A1CDF1;
     color: white;
     text-align: center;
-    font-size: 130%;
 }
 
 
 #contact a {
     text-decoration: none;
     color: #7A7A7A;
+    max-width: 70%;
+        
 }
 
 #contact p {
+    max-width: 70%;
 }
 
 footer {
