@@ -41,6 +41,7 @@ header {
 }
 
 .title-row img {
+    display: block;
     padding: 10%;
     margin: 5%;
     max-width: 25%;
