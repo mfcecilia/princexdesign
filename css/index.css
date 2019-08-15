@@ -43,10 +43,9 @@ header {
 
 .title-row img {
     display: block;
-    padding: 10%;
+    padding: 5%;
     margin: 5%;
-    max-width: 25%;
-    max-height: 25%;
+    max-width: 30%;
 }
 
 .menu {
