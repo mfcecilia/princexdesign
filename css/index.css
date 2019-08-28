@@ -8,10 +8,9 @@ body {
 
 nav {
     background-color: white;
-    position: fixed;
     display: flex;
     justify-content: space-around;
-    max-width: 100%;
+    width: 100%;
     justify-content: center;
     flex-wrap: wrap;
 }
@@ -29,11 +28,16 @@ nav {
 
 header {
     font-family: 'Eczar', serif;
-    max-width: 90%;
+    max-width: 100%;
     display: block;
     margin: auto;
-    max-height: 300px;
-    padding-top: 15%;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .title-row {
@@ -46,7 +50,7 @@ header {
 header img {
     display: block;
     margin: auto;
-    max-width: 30%;
+    width: 100%;
 }
 
 .menu {
