@@ -2,8 +2,13 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    margin: 0;
-    max-width: 100%;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
 }
 
 nav {
@@ -122,13 +127,18 @@ header img {
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin: auto;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
 }
 
 #projects {
-    margin: 0;
-    max-width: 100%;
+    margin: auto;
+    width: 100%;
     background-color: #F2B5D4;
     color: white;
+    text-align: center;
 }
 
 #projects h1 {
@@ -179,6 +189,8 @@ header img {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    width: 100%;
+    margin: auto;
 }
 
 .gallery div {
