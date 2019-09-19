@@ -247,6 +247,25 @@ header img {
     margin: auto;
 }
 
+#events {
+    background-color: cornsilk;
+}
+
+#events h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3em;
+    color: gray;
+}
+
+#events p {
+    font-family: 'Eczar', serif;
+    color: grey;
+}
+
+#events img {
+    max-width: 50%;
+}
+
 #contact {
     padding: 30%;
     margin: 0;
