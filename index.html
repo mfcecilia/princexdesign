@@ -5,141 +5,142 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PrincexDesign</title>
     <link rel="icon" href="imgs/princexdesign-logo_004.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css">
     <link href="https://fonts.googleapis.com/css?family=Eczar|Raleway" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Lobster|Pacifico&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <script src="js/index.js"></script>
 </head>
+
+<style>
+.navbar-nav {
+  flex-direction: row;
+}
+</style>
     
 <body>
-    <nav>
-        <div class="menu">
-            
-            <a class="projects" href="#projects"><div><h5>Projects</h5></div></a>
-            <a class="home" href="#home"><div><img src="imgs/princexdesign-logo_004.png" alt="PrincexDesign logo -- click to return to the home page"></div></a>
-            <a class="about" href="#about"><div><h5>About</h5></div></a>
+    <nav class="navbar fixed-top" id="mainNav">
+        <div class="container">
+          <a class="navbar-brand js-scroll-trigger" href="#page-top">
+            <img src="imgs/princexdesign-logo_004.png" height="40" alt="PrincexDesign logo -- click to return to the home page">PrincexDesign
+          </a>
+          <ul class="nav navbar-nav ml-auto">
+              <li class="nav-item mx-0 mx-lg-1" role="presentation"><a class="nav-link py-3 px-3 px-lg-3 js-scroll-trigger projects" href="#projects">Projects</a></li>
+              <li class="nav-item mx-0 mx-lg-1" role="presentation"><a class="nav-link py-3 px-3 px-lg-3 js-scroll-trigger about" href="#about">About</a></li>
+          </ul>
         </div>
     </nav>
     
-    <header>
-        <img src="imgs/pxd-drawn-header_00.jpg" alt="PrincexDesign logo">
+    <header class="main-header">
+      <div class="banner" style="background-image: url(imgs/gif_00.gif);">
+      </div>
+      <div class="pt-3 main-header__overlay">
+        <h1>PrincexDesign</h1>
+        <hr class="mt-3">
+        <ul class="sub-nav mb-3">
+          <li>
+            <a class="careers" href="careers.html" target="_blank">
+              <h5>Careers</h5>
+            </a>
+          </li>
+          <li>
+            <a class="workshops" href="workshops.html" target="_blank">
+              <h5>Workshops</h5>
+            </a>
+          </li>
+          <li>
+            <a class="hire" href="hire.html" target="_blank">
+              <h5>Hire Us</h5>
+            </a>
+          </li>
+        </ul>
+      </div>
     </header>
-    
-
-    <div class="sub-nav">
-        <a class="careers" href="careers.html" target="_blank">
-            <div><h5>Careers</h5></div>
-        </a>
-        <a class="workshops" href="workshops.html" target="_blank">
-            <div><h5>Workshops</h5></div>
-        </a>
-        <a class="hire" href="hire.html" target="_blank"><div><h5>Hire Us</h5></div>
-        </a>
-    </div>
-    <br>
-    <br>
-    <br>
-    <section class="menu-content">
-        <div id="projects">
-            <br>
-            <br>
-            <br>
-            <h1>Projects</h1>
-            <hr>
-            <br>
-            <br>
-            <br>
-            <p>We take pride in our versatility. Take a look at the the various projects we have had the pleasure to work on.
-            </p>
-            <br>
-            <br>
-            <br>
-            <hr>
-            <br>
-            <br>
-            <div class="gallery">
-                
-                <div>
-                    <i class="fas fa-palette fa-2x"></i>
-                    <br>
-                    <a href="https://www.instagram.com/princexdesign/">Graphic Design</a>
-                </div>
-                
-                <div>
-                    <i class="fas fa-code fa-2x"></i>
-                    <br>
-                    <a href="https://devpost.com/mfcecilia">Hackathons</a>
-                </div>
-                
-                <div>
-                    <i class="fas fa-drafting-compass fa-2x"></i>
-                    <br>
-                    <a href="architecture.html" target="_blank">Architecture</a>
-                </div>
-                
-                <div>
-                    <i class="fas fa-gamepad fa-2x"></i>
-                    <br>
-                    <a href="game-dev.html" target="_blank">Game Development</a>
-                </div>
-                
-                <div>
-                    <i class="fas fa-theater-masks fa-2x"></i>
-                    <br>
-                    <a href="theatre.html" target="_blank">Theatre</a>
-                </div>
+    <section id="projects" class="py-5">
+      <div class="container">
+        <h2>Projects</h2>
+        <hr class="my-5">
+        <p class="subtext">We take pride in our versatility. Take a look at the the various projects we have had the pleasure to work on.</p>
+        <hr class="my-5">
+        <div class="row">
+            <div class="col-md-6 col-lg-4 p-3">
+              <a target="_blank" href="https://www.instagram.com/princexdesign/">
+                <i class="fas fa-palette fa-5x"></i>
+                <br/>
+                <h4>Graphic Design</h4>
+              </a>
             </div>
-            <br>
-        </div>
-        <div id="about">
-            <br>
-            <br>
-            <br>
-            <h1>About Us</h1>
-            <hr>
-            <p id="description">A firm that designs and manufactures equitable solutions for industries such as architecture, theatre, web design, software, mobile applications, game development, and graphic design.</p>
-            <br>
-            <hr>
-            <br>
-            <br>
-            <div class="testimonials">
-                <div class="testimony">
-                    <h4>Advancing Arts Forward</h4>
-                    <a href="https://advancingartsforward.com" target="_blank"><img src="imgs/Logos-cropped.png"></a><p>"PrincexDesign is my ideal spot for web and graphic design. As an organization that prioritizes supporting marginalized communities like people of color and gender non-conforming folx, I’m glad to use a designer and developer that shares the same values. I also value the accessible payment options that PrincexDesign has like bartering and trading goods and services, referrals, and sliding scale prices."</p>
-                    <p>-Viviana Vargas at Advancing Arts Forward</p>
-                </div>
-                <div class="testimony">
-                    <h4>Xemiyulu Manibusan Tapepechul</h4>
-                    <a href="https://www.xemiyulu.com" target="_blank"><img src="imgs/Screen%20Shot%202019-08-05%20at%2011.42.54%20PM.png"></a>
-                    <p>"PrincexDesign nailed the concept behind the graphic that corresponds with Nelwat Ishkamewe’s second stage production 'Protect & Preserve'. This one act play, produced in partnership with various local Trans advocacy groups, centers healing, symbolism, and ritual. The graphic designed was full, powerful, and impactful. I look forward to working with PrincexDesign for future theatrical productions!"</p>
-                    <p>-Xemiyulu Manibusan Tapepechul with Nelwat Ishkamewe</p>
-                </div>
+            <div class="col-md-6 col-lg-4 p-3">
+              <a target="_blank" href="https://devpost.com/mfcecilia">
+                <i class="fas fa-code fa-5x"></i>
+                <br/>
+                <h4>Hackathons</h4>
+              </a>
+            </div>
+            <div class="col-md-6 col-lg-4 p-3">
+              <a target="_blank" href="architecture.html">
+                <i class="fas fa-drafting-compass fa-5x"></i>
+                <br/>
+                <h4>Architecture</h4>
+              </a>
+            </div>
+            <div target="_blank" class="col-md-5 col-lg-4 offset-md-1 p-3">
+              <a href="game-dev.html">
+              <i class="fas fa-gamepad fa-5x"></i>
+              <br/>
+              <h4>Game Development</h4>
+              </a>
+            </div>
+            <div class="col-md-5 col-lg-4 offset-md-1 p-3">
+              <a target="_blank" href="theatre.html">
+                <i class="fas fa-theater-masks fa-5x"></i>
+                <br/>
+                <h4>Theatre</h4>
+              </a>
             </div>
         </div>
-        
-        <div id="events">
-            <h2>Upcoming Events</h2>
-            <p>Click banner to register</p>
-            <a href="https://withfriends.co/event/2460842/coding_for_liberation_3_week_course" target="_blank">
-            <img src="imgs/mayday-CodingForLiberationIG.png" alt="mayday space brooklyn in person 3 week workshop oct 19 - nov 2 taught by princexdesign. each class is from 2p - 3:30p"></a>
-            <br>
-            <br>
-            <br>
-            
+      </div>
+    </section>
+    <section id="about" class="about py-5">
+      <div class="container">
+        <h2>About Us</h2>
+        <hr class="my-5">
+        <p class="subtext">A firm that designs and manufactures equitable solutions for industries such as architecture, theatre, web design, software, mobile applications, game development, and graphic design.<br></p>
+        <hr class="my-5">
+        <div class="row">
+          <div class="col-lg-6 ml-auto testimony">
+            <h4>Advancing Arts Forward</h4>
+            <a href="https://advancingartsforward.com" target="_blank"><img class="my-2" src="imgs/Logos-cropped.png"></a><p>"PrincexDesign is my ideal spot for web and graphic design. As an organization that prioritizes supporting marginalized communities like people of color and gender non-conforming folx, I’m glad to use a designer and developer that shares the same values. I also value the accessible payment options that PrincexDesign has like bartering and trading goods and services, referrals, and sliding scale prices."</p>
+            <p>-Viviana Vargas at Advancing Arts Forward</p>
+          </div>
+          <div class="col-lg-6 mr-auto testimony">
+            <h4>Xemiyulu Manibusan Tapepechul</h4>
+            <a href="https://www.xemiyulu.com" target="_blank"><img class="my-2" src="imgs/Screen%20Shot%202019-08-05%20at%2011.42.54%20PM.png"></a>
+            <p>"PrincexDesign nailed the concept behind the graphic that corresponds with Nelwat Ishkamewe’s second stage production 'Protect & Preserve'. This one act play, produced in partnership with various local Trans advocacy groups, centers healing, symbolism, and ritual. The graphic designed was full, powerful, and impactful. I look forward to working with PrincexDesign for future theatrical productions!"</p>
+            <p>-Xemiyulu Manibusan Tapepechul with Nelwat Ishkamewe</p>
+          </div>
         </div>
-        
-        <div id="contact">
-            <p>Contact 
-                <a href="mailto:meow@princexdesign.com">meow@princexdesign.com</a> with inquiries.
-            </p>
-        </div>
-        
+      </div>
+    </section>
+    <section id="events" class="py-5">
+      <div class="container">
+        <h2>Upcoming Events</h2>
+        <p>Click banner to register</p>
+        <a href="https://withfriends.co/event/2460842/coding_for_liberation_3_week_course" target="_blank">
+        <img src="imgs/mayday-CodingForLiberationIG.png" alt="mayday space brooklyn in person 3 week workshop oct 19 - nov 2 taught by princexdesign. each class is from 2p - 3:30p"></a>
+      </div>
+    </section>
+    <section id="contact" class="py-5">
+      <div class="container">
+          <h2>Contact</h2>
+          <p><a href="mailto:meow@princexdesign.com">meow@princexdesign.com</a> with inquiries.</p>
+      </div>
     </section>
     
     <div class="donate">
     </div>
     
-    <footer>Copyright 2019 PrincexDesign</footer>
+    <footer class="py-3">Copyright 2019 PrincexDesign</footer>
 </body>
 </html>
