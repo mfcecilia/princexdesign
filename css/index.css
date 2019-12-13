@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    color: gray;
 }
 body {
     margin: auto;
@@ -18,6 +19,43 @@ nav {
     width: 100%;
     justify-content: center;
     flex-wrap: wrap;
+    font-family: 'Eczar', serif;
+}
+
+h1 {
+  margin: 0;
+}
+
+hr {
+  max-width: 30%;
+  border: .5px solid #7a7a7a;
+}
+
+@media screen and (max-width: 800px) {
+  hr {
+      max-width: 60%;
+  }
+}
+
+a:hover {
+  color: darkslategray;
+}
+
+.navbar-brand {
+  color: gray;
+}
+
+.banner {
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+  text-align: center;
+  position: relative;
+  display: table;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .sub-nav {
@@ -31,12 +69,33 @@ nav {
     font-size: 130%;
 }
 
+.sub-nav h5 {
+  margin: 0;
+}
+
+.sub-nav, .sub-nav li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
 header {
     font-family: 'Eczar', serif;
     max-width: 100%;
     display: block;
-    margin: auto;
 }
+
+.main-header {
+  position: relative;
+}
+
+.main-header__overlay {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  background: rgb(255,255,255,.95)
+}
+
 
 section {
     display: flex;
@@ -83,7 +142,7 @@ header img {
 }
 
 .projects {
- color: #F2B5D4;   
+ color: hotpink;   
 }
 
 .contact {
@@ -91,11 +150,11 @@ header img {
 }
 
 .about {
-    color: #BEE8C3;
+    color: darkseagreen;
 }
 
 .careers {
-    color: peachpuff;
+    color: peru;
     text-decoration: none;
 }
 
@@ -133,6 +192,19 @@ header img {
     justify-content: center;
 }
 
+p.subtext {
+  max-width: 30%;
+  margin: auto;
+  font-style: oblique;
+  color: grey;
+}
+
+@media screen and (max-width: 800px) {
+  p.subtext {
+    max-width: 60%;
+  }
+} 
+
 #projects {
     margin: auto;
     width: 100%;
@@ -141,28 +213,25 @@ header img {
     text-align: center;
 }
 
-#projects h1 {
+#projects h1, h2 {
     font-family: 'Dancing Script', cursive;
     font-size: 3em;
     color: white;
 }
 
-#projects hr {
-    max-width: 30%;
-    border: .5px solid black;
-}
-
-
-#projects p {
-    font-style: oblique;
-    max-width: 30%;
-    margin: auto;
+#projects a > i {
+  color: white;
+  font-size: 5em;
 }
 
 #projects a {
     text-decoration: none;
     color: grey;
     font-size: 1.3em;
+}
+
+#projects h4 {
+  font-family: 'Eczar', serif;
 }
 
 /* unvisited link */
@@ -205,18 +274,12 @@ header img {
     background-color: #BEE8C3;
     color: #7A7A7A;
     text-align: center;
-    margin:auto;
     padding: 3%;
-    font-size: 1.5em;
 }
 
 #about h1 {
     font-family: 'Dancing Script', cursive;
     color: white;
-}
-
-#about hr {
-    max-width: 30%;
 }
 
 #description {
@@ -231,19 +294,14 @@ header img {
     flex-wrap: wrap;
 }
 
-.testimony {
-    max-width: 50%
+.testimony > p {
+    max-width: 70%;
+    margin: auto;
 }
 
 .testimony img {
     max-width: 30%;
     display: block;
-    margin: auto;
-}
-
-.testimony p {
-    font-size: .60em;
-    max-width: 70%;
     margin: auto;
 }
 
@@ -267,7 +325,6 @@ header img {
 }
 
 #contact {
-    padding: 30%;
     margin: 0;
     max-width: 100%;
     background-color: #A1CDF1;
