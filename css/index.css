@@ -12,14 +12,19 @@ body {
     flex-direction: column;
 }
 
+header {
+    background-color: black;
+}
+
+header img {
+    max-width: 75%;
+}
+
 center {
     max-width: 50%;
     margin: auto;
 }
 
-h1 {
-  margin: 0;
-}
 
 hr {
   max-width: 30%;
