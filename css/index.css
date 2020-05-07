@@ -19,7 +19,6 @@ nav {
     width: 100%;
     justify-content: center;
     flex-wrap: wrap;
-    font-family: 'Eczar', serif;
 }
 
 h1 {
@@ -65,7 +64,6 @@ a:hover {
 
 .sub-nav a {
     text-decoration: none;
-    font-family: 'Eczar', serif;
     font-size: 130%;
 }
 
@@ -80,7 +78,6 @@ a:hover {
 }
 
 header {
-    font-family: 'Eczar', serif;
     max-width: 100%;
     display: block;
 }
@@ -122,7 +119,6 @@ header img {
     justify-content: center;
     justify-content: space-around;
     text-align: center;
-    font-family: 'Eczar', serif;
     flex-wrap: wrap;
     font-size: 130%;
     max-width: 100%;
@@ -205,54 +201,6 @@ p.subtext {
   }
 }
 
-#projects {
-    margin: auto;
-    width: 100%;
-    background-color: #F2B5D4;
-    color: white;
-    text-align: center;
-}
-
-#projects h1, h2 {
-    font-family: 'Dancing Script', cursive;
-    font-size: 3em;
-    color: white;
-}
-
-#projects a > i {
-  color: white;
-  font-size: 5em;
-}
-
-#projects a {
-    text-decoration: none;
-    color: grey;
-    font-size: 1.3em;
-}
-
-#projects h4 {
-  font-family: 'Eczar', serif;
-}
-
-/* unvisited link */
-#projects a:link {
-  color: grey;
-}
-
-/* visited link */
-#projects a:visited {
-  color: grey;
-}
-
-/* mouse over link */
-#projects a:hover {
-  color: white;
-}
-
-/* selected link */
-#projects a:active {
-  color: white;
-}
 
 .gallery {
     display: flex;
@@ -271,7 +219,6 @@ p.subtext {
 }
 
 #about {
-    background-color: #BEE8C3;
     color: #7A7A7A;
     text-align: center;
     padding: 3%;
@@ -327,8 +274,6 @@ p.subtext {
 #contact {
     margin: 0;
     max-width: 100%;
-    background-color: #A1CDF1;
-    color: white;
     text-align: center;
 }
 
