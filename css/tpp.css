@@ -29,4 +29,10 @@ footer {
     margin: auto;
     bottom: 0;
     text-align: center;
+    color: black;
+}
+
+footer a {
+    text-decoration: none;
+    color: grey;
 }
